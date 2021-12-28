@@ -1,4 +1,4 @@
-# Webpack Starter
+# Webpack Starter (This .md will change in the future!)
 
 This is the initial project for building applications using webpack. Configured to work with js and jsx files, sass and assets.
 
@@ -15,4 +15,3 @@ Command to rebuild the build folder:
 ```
 npm run build
 ```
-

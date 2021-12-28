@@ -1,0 +1,64 @@
+:root {
+    // COLORS FOR THEME 1
+
+    // backgrounds:
+    --darkmo-main-bg: hsl(222, 26%, 31%);
+    --darkmo-toggle-keypad-bg: hsl(223, 31%, 20%);
+    --darkmo-screen-bg: hsl(224, 36%, 15%);
+
+    // keys:
+    --darkmo-blue-key-bg: hsl(225, 21%, 49%);
+    --darkmo-blue-key-shadow: hsl(224, 28%, 35%);
+
+    --darkmo-red-key-toggle-bg: hsl(6, 63%, 50%);
+    --darkmo-red-key-shadow: hsl(6, 70%, 34%);
+
+    --darkmo-grayish-orange-key-bg: hsl(30, 25%, 89%);
+    --darkmo-grayish-orange-key-shadow: hsl(28, 16%, 65%);
+
+    // text:
+    --darkmo-text1: hsl(221, 14%, 31%);
+    --darkmo-text2: hsl(0, 0, 100%);
+
+    // COLORS FOR THEME 2
+
+    // background:
+    --lightmo-main-bg: hsl(0, 0%, 90%);
+    --lightmo-toggle-keypad-bg: hsl(0, 5%, 81%);
+    --lightmo-screen-bg: hsl(0, 0%, 93%);
+
+    // keys:
+    --lightmo-cyan-key-bg: hsl(185, 42%, 37%);
+    --lightmo-cyan-key-shadow: hsl(185, 58%, 25%);
+
+    --lightmo-orange-key-toggle-bg: hsl(25, 98%, 40%);
+    --lightmo-orange-key-shadow: hsl(25, 98%, 40%);
+
+    --lightmo-grayish-yellow-key-bg: hsl(45, 7%, 89%);
+    --lightmo-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+
+    // text:
+    --lightmo-text1: hsl(60, 10%, 19%);
+    --lightmo-text2: hsl(0, 0, 100%);
+
+    // COLORS FOR THEME 3
+
+    // backgrounds:
+    --violetmo-main-bg: hsl(268, 75%, 9%);
+    --violetmo-toggle-keypad-screen-bg: hsl(268, 71%, 12%);
+
+    // keys:
+    --violetmo-violet-key-bg: hsl(281, 89%, 26%);
+    --violetmo-magenta-key-shadow: hsl(285, 91%, 52%);
+
+    --violetmo-cyan-key-toggle-bg: hsl(176, 100%, 44%);
+    --violetmo-cyan-key-shadow: hsl(177, 92%, 70%);
+
+    --violetmo-dark-violet-key-bg: hsl(268, 47%, 21%);
+    --violetmo-dark-magenta-key-shadow: hsl(290, 70%, 36%);
+
+    // text:
+    --violetmo-text1: hsl(52, 100%, 62%);
+    --violetmo-text2: hsl(198, 20%, 13%);
+    --violetmo-text3: hsl(0, 0, 100%);
+}
