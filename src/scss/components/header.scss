@@ -1,0 +1,17 @@
+@use '../utils' as *;
+
+.header {
+    margin-top: rem(100);
+
+    @include breakpoint(medium) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+    }
+
+    &__toggle {
+    }
+}

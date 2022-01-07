@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header container">
+      <div class="header__title">
+        <h1>calc</h1>
+      </div>
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
-            rel="stylesheet"
-        />
+      <fieldset class="header__toggle toggle" aria-label="theme toggle" role="radiogroup">
+        <div class="toggle__wrapper">
+          <input type="radio" name="theme" id="dark" />
+          <input type="radio" name="theme" id="light" checked />
+          <input type="radio" name="theme" id="blue" />
+          <span aria-hidden="true" class="toggle__background"></span>
+          <span aria-hidden="true" class="toggle__button"></span>
+        </div>
+        <label for="theme">THEME</label>
+        <label for="dark">1</label>
+        <label for="light">2</label>
+        <label for="blue">3</label>
+      </fieldset>
+    </header>
 
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="./images/favicon-32x32.png"
-        />
+    <!-- Main -->
+    <main></main>
 
-        <title>Frontend Mentor | Calculator app</title>
+    <!-- Footer -->
+    <footer></footer>
 
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <style>
-            .attribution {
-                font-size: 11px;
-                text-align: center;
-            }
-            .attribution a {
-                color: hsl(228, 45%, 44%);
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Hello</h1>
-        <div class="attribution">
+    <!-- <div class="attribution">
             Challenge by
             <a
                 href="https://www.frontendmentor.io?ref=challenge"
                 target="_blank"
                 >Frontend Mentor</a
             >. Coded by <a href="#">Your Name Here</a>.
-        </div>
-    </body>
+        </div> -->
+  </body>
 </html>
