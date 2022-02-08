@@ -1,0 +1,27 @@
+@use '../utils' as *;
+
+.keypad-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--darkmo-toggle-keypad-bg);
+
+  .reset {
+    grid-column: 1 / 3;
+  }
+
+  .equal {
+    grid-column: 3 / 5;
+  }
+
+  &__key {
+    background-color: var(--darkmo-grayish-orange-key-bg);
+  }
+
+  &__option {
+    background-color: var(--darkmo-blue-key-bg);
+
+    &--red {
+      background-color: var(--darkmo-red-key-toggle-bg);
+    }
+  }
+}

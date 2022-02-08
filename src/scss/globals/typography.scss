@@ -3,19 +3,20 @@
 h1,
 h2,
 h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 h1 {
-    font-size: rem(34);
+  font-size: rem(34);
+  margin: 0;
 
-    @include breakpoint(large) {
-        font-size: rem(32);
-    }
+  @include breakpoint(large) {
+    font-size: rem(32);
+  }
 }
 
 a,
 a:visited,
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
