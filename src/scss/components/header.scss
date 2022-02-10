@@ -9,6 +9,9 @@
 
   &__title {
     flex-basis: calc(50% - 1rem);
-    margin: 0;
+
+    @include breakpoint(medium) {
+      width: auto;
+    }
   }
 }
