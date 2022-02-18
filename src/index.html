@@ -18,7 +18,7 @@
       </div>
 
       <fieldset class="header__toggle toggle" aria-label="theme toggle" role="radiogroup">
-        <label for="theme">THEME</label>
+        <label for="theme">theme</label>
         <div class="toggle__wrapper">
           <input type="radio" name="theme" id="dark" />
           <input type="radio" name="theme" id="light" checked />
@@ -36,30 +36,18 @@
 
     <!-- Main -->
     <main>
-      <section class="display container">
-        <div class="display__content">399,981</div>
+      <section class="container">
+        <div class="display">
+          <span class="display__content">399,981</span>
+        </div>
       </section>
 
-      <section class="container">
-        <div class="keypad-grid">
-          <button class="keypad-grid__key">7</button>
-          <button class="keypad-grid__key">8</button>
-          <button class="keypad-grid__key">9</button>
-          <button class="keypad-grid__key keypad-grid__key--blue">DEL</button>
-          <button class="keypad-grid__key">4</button>
-          <button class="keypad-grid__key">5</button>
-          <button class="keypad-grid__key">6</button>
-          <button class="keypad-grid__key">+</button>
-          <button class="keypad-grid__key">1</button>
-          <button class="keypad-grid__key">2</button>
-          <button class="keypad-grid__key">3</button>
-          <button class="keypad-grid__key">-</button>
-          <button class="keypad-grid__key">.</button>
-          <button class="keypad-grid__key">0</button>
-          <button class="keypad-grid__key">/</button>
-          <button class="keypad-grid__key">x</button>
-          <button class="keypad-grid__key keypad-grid__key--blue reset">RESET</button>
-          <button class="keypad-grid__key keypad-grid__key--red equal">=</button>
+      <section class="keypad-grid container">
+        <div class="key">
+          <button class="key__char">7</button>
+          <button class="key__char">8</button>
+          <button class="key__char">9</button>
+          <button class="key__char">del</button>
         </div>
       </section>
     </main>

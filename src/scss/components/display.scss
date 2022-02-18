@@ -1,14 +1,11 @@
 @use '../utils' as *;
 
 .display {
+  background-color: var(--darkmo-screen-bg);
+  border-radius: rem(12);
   font-size: rem(50);
+  overflow: hidden;
+  padding: rem(40) rem(30);
+  position: relative;
   text-align: right;
-
-  &__content {
-    height: 100%;
-    width: 100%;
-    background-color: var(--darkmo-screen-bg);
-    border-radius: rem(12);
-    padding: rem(40) rem(30);
-  }
 }
